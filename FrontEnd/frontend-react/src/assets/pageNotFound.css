@@ -1,0 +1,9 @@
+/*
+    CSS file for pageNotFound of react website
+    Author: Rodrigo Miguel Rojas (s3784466)
+ */
+
+.msg {
+    text-align: center;
+    margin-top: 50px;
+}
