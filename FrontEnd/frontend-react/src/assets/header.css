@@ -1,0 +1,56 @@
+/*
+    CSS file for header of react website
+    Author: Rodrigo Miguel Rojas (s3784466)
+ */
+.header {
+    display: block;
+    position: relative;
+    width: 100%;
+    color: white;
+    background: black;
+    height: 90px;
+    opacity: 80%;
+    border-bottom: 1px solid black;
+    clear: both;
+}
+
+.title {
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.navbar {
+    position: absolute;
+    top: 40%;
+    width: 100%;
+    text-align: right;
+    @include translateY(-40%);
+}
+
+.list {
+    display: inline-flex;
+    list-style-type: none;
+    line-height: normal;
+    margin-right:50px;
+}
+
+.loginHead{
+    margin-right: 30px;
+}
+a {
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    text-decoration: none;
+    color: lightblue;
+}
+
+
+
+

@@ -1,0 +1,26 @@
+.backViewB {
+    font-size: 16px;
+    text-align:left;
+    color:black;
+    font-weight: bold;
+}
+
+.arrowViewB {
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+}
+.leftViewB {
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+}
+
+.divViewB {
+    margin-left: 50px;
+}
+
+.tableViewB {
+    padding-right: 200px;
+    border-bottom: 2px solid black;
+}

@@ -1,0 +1,18 @@
+.formRegType {
+    background: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: auto;
+    padding: 50px 100px 150px;
+    box-shadow:0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+.dropdownRegType {
+    background: lightgrey;
+    outline: 0;
+    border: 0;
+    font-size: 14px;
+    margin-bottom: 10px;
+    padding: 2px 40px;
+}

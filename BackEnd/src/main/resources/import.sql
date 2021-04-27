@@ -1,0 +1,6 @@
+insert into user (address, first_name, last_name, password, phone, role, username, user_id) values ('admin1', 'admin1', 'admin1', 'admin1', '1111', 'Admin','admin1', 999)
+insert into admin_company (company, admin_id) values ('company1', 999)
+insert into user (address, first_name, last_name, password, phone, role, username, user_id) values ('customer1', 'customer1', 'customer1', 'customer1', '1111', 'Customer','customer1', 888)
+insert into user (address, first_name, last_name, password, phone, role, username, user_id) values ('worker1', 'worker1', 'worker1', 'worker1', '1111', 'Worker','worker1', 777)
+insert into management (admin_id, worker_id, management_id) values (999, 777, 666)
+insert into contact (user_id, phone, email, detail) values('999', null, null , null)

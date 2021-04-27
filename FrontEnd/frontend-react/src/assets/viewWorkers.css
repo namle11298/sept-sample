@@ -1,0 +1,27 @@
+.backViewWorker {
+    text-align:left;
+    color:black;
+    font-weight: bold;
+
+}
+
+.arrowViewWorker {
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+}
+.leftViewWorker {
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+}
+
+.headWorker {
+    text-align: left;
+    padding-left: 50px;
+    margin-bottom: 0px;
+}
+
+.ulWorker {
+    padding-left: 100px;
+}

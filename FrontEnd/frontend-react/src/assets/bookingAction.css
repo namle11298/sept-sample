@@ -1,0 +1,56 @@
+.formBookingA {
+    background: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: auto;
+    padding: 50px 100px 150px;
+    box-shadow:0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+.dropdownBookingA {
+    background: lightgrey;
+    outline: 0;
+    border: 0;
+    font-size: 14px;
+    margin-bottom: 10px;
+    width: 280px;
+    height: 40px;
+}
+
+.formBookingA button {
+    text-transform: uppercase;
+    outline: 0;
+    background: black;
+    width:280px;
+    border: 0;
+    padding: 15px;
+    color: white;
+    font-size: 10px;
+    cursor: pointer;
+}
+
+.errorBookingA {
+    text-align: center;
+    font-size: 8px;
+    color: red;
+    font-weight: bold;
+}
+
+.backBookingA {
+    font-size: 16px;
+    text-align:left;
+    color:black;
+    font-weight: bold;
+}
+
+.arrowBookingA {
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+}
+.leftBookingA {
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+}

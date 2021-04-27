@@ -1,0 +1,30 @@
+.bodyDash {
+    text-align: left;
+    margin-top: 50px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.buttonDash {
+    border: 2px solid black;
+    background-color: lightgrey;
+    color: black;
+    font-size: 16px;
+    cursor: pointer;
+    margin-right : 10px;
+    width: 200px;
+    height: 150px;
+    text-align: center;
+}
+
+.buttonDash:hover {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    opacity: 80%;
+}
+
+
+.formDash {
+    display: inline-flex;
+}

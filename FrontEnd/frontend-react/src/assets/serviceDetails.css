@@ -1,0 +1,34 @@
+.formViewServ {
+    background: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 100px 100px 150px;
+    box-shadow:0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+.textViewServ {
+    text-align: left;
+    margin-left: 0px;
+}
+
+.formViewServ button {
+    text-transform: uppercase;
+    outline: 0;
+    background: black;
+    width:40%;
+    border: 0;
+    padding: 15px;
+    color: white;
+    font-size: 10px;
+    cursor: pointer;
+    margin-left: 18px;
+}
+.formViewServ button:hover {
+    background: darkgrey;
+}
+
+.booking {
+    text-align: center;
+}

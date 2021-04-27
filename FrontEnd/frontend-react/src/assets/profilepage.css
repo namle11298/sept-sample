@@ -1,0 +1,37 @@
+.divProfile {
+    background: white;
+    position: absolute;
+    box-shadow:0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+    width: 100%;
+    height: 100%;
+    color: black;
+    opacity: 80%;
+}
+
+.backProfile {
+    text-align:left;
+    color:black;
+    font-weight: bold;
+
+}
+
+.headerProfile{
+    text-align: center;
+}
+
+.textProfile{
+    margin-top: 50px;
+    padding-left: 50px;
+    text-align: left;
+}
+
+.arrowProfile {
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+}
+.leftProfile {
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+}
